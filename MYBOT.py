@@ -4,7 +4,7 @@ from yt_dlp import YoutubeDL
 import os
 
         # Ваш Telegram Bot Token
-API_TOKEN = "7875828743:AAHCLeXP6j9zEEY2fc3GG_yyeIhHw9P6e_s"
+BOT_TOKEN = os.environ['BOT_TOKEN']
 
         # Ініціалізація об'єкта Bot і Dispatcher
 bot = Bot(token=API_TOKEN)
