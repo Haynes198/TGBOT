@@ -1,0 +1,9 @@
+aiogram==2.25.1
+
+yt-dlp
+
+aiogram
+
+imageio[ffmpeg]
+
+ffmpeg-python
